@@ -1,0 +1,230 @@
+.Encabezado{
+    width: 165vh;
+    height: 90px;
+    border: 5px solid aquamarine;
+    display: flex;
+    
+}
+.logo{
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 70px;
+    height: 50px;
+    border: 5px solid aqua;
+}
+.Nombre{
+    margin-left: 15px;
+    margin-top: 8px;
+    margin-bottom: 5px;;
+    border: 5px solid greenyellow;
+}
+.BarraNavegacion{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+    border: 5px solid green;
+    padding-top: 20px;
+    
+    
+}
+.linksNavegacion{
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.Instagram{
+    font-size: 20px;
+    margin-top: 33px;
+    margin-left: 25px;
+}
+.LogoInstagram{
+    margin-left: 30px;
+    margin-top: 21px;
+    border: 5px solid greenyellow;
+    width:35px;
+    height: 35px;
+}
+.Presentacion{
+    margin-top: 7px;
+    width: 163vh;
+    height: 500px;
+    border: 5px solid blue;
+    display:flex;
+}
+.VideoPresentacion{
+    width: 700px;
+
+    margin: 10px;
+    border: 5px solid blue;
+    border-radius: 5%;
+}
+.ParrafoPresentacion{
+    width: 700px;
+    height: 350px;
+    margin: 50px;
+    border: 5px solid blue;
+    padding: 33px;
+}
+.Productos{
+    margin-top: 7px;
+    width: 163vh;
+    height: 700px;
+    border: 5px solid yellow;
+    
+}
+.NuestrosProductos{
+    margin: 40px;
+    font-size: 40px;
+}
+.ContenidoProductos{
+    width: 160vh;
+    height: 500px;
+    border:5px solid orange;
+    margin-left: 10px;
+    display:flex;
+}
+.TextoProductos{
+    height: 400px;
+    width:500px;
+    margin:50px;
+    border: 5px solid orangered;
+}
+.ContenedorCarrusel{
+    height: 450px;
+    width:730px;
+    margin:25px;
+    border: 5px solid orangered;
+    overflow: hidden;
+}
+.Carrusel{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    scroll-snap-type: x mandatory;
+    
+} 
+.carruselElemento>img{
+    width: 698px;
+    height: 450px;
+    border-radius: 5%;
+}
+#prev, #next{
+    background-color: white;
+    border:none;
+    font-size: 25px;
+    font-weight: 500;
+}
+.nuestroInstagram{
+    width: 163vh;
+    height:730px;
+    margin-top: 5px;
+    border: 5px solid red;
+    text-align: center;
+    font-size: 30px;
+    
+}
+.contenidoInstagram{
+    width: 150vh;
+    height: 550px;
+    border: 5px solid ;
+    margin-left: 50px;
+    display:flex;
+}
+.InstagramContenido{
+    width: 370px;
+    height: 500;
+    border: 5px solid red;
+    margin-left: 50px;
+}
+.InstagramContenido>img{
+    width: 350px;
+    height: 230px;
+    margin-top: 25px
+}
+.InstagramContenido>.TextoContenido{
+    font-size: 10px;
+    text-align: justify;
+    margin-top: 35px;
+}
+.InstagramContenido>img{
+    width: 350px;
+    height:230px;
+}
+footer{
+    margin-top: 20px;
+    width: 163vh;
+    height: 400px;
+    border: 5px solid black;
+    display: flex;
+}
+.ContactoFooter,.RedesSociales{
+    margin-left: 105px;
+    margin-top: 50px;
+    width: 300px;
+    height: 335px;
+    border: 5px solid black;
+}
+.logoTelefono{
+    width: 42px;
+}
+.ContactoFooter>h3{
+    margin-left: 10px;
+}
+.logoMail{
+    width: 50px;
+}
+.ContactoFooter>h2, .RedesSociales>h2{
+    margin-left: 18px;
+}
+.logoUbicacion{
+    width: 48px;
+}
+.logoFacebook{
+    width: 50px;
+}
+.RedesSociales>*{
+    margin-right: 50px;
+
+}
+.logoInstagramFooter{
+    width: 50px;
+}
+.logoTikTok{
+    width:55px;
+}
+.logoEmpresaFooter{
+    margin-left: 230px;
+    margin-top: 180px;
+    height: 200px;
+    width: 300px;
+    border: 5px solid black;
+    text-align: center;
+    
+    
+}
+/*Página Sobre Nosotros*/
+.MisionVision{
+    width: 165vh;
+    height: 600px;
+    border: 5px solid red;
+    display:flex;
+}
+.Mision,.Vision{
+    margin-left: 80px;
+    margin-top:70px;
+    width:  600px;
+    height:500px;
+    border: 5px solid yellow;
+}
+.Mision >img, .textoMision{
+    width: 500px;
+    height: 300px;
+    margin-left: 50px;
+    text-align: center;
+}
+.Vision>img,.textoVision{
+     width: 500px;
+    height: 300px;
+    margin-left: 50px;
+}
