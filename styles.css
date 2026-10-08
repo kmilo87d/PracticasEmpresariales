@@ -1,75 +1,108 @@
 .Encabezado{
-    width: 165vh;
-    height: 90px;
-    border: 5px solid aquamarine;
+    width: 155vh;
+    height: 200px;
+    /*border: 5px solid aquamarine;*/
     display: flex;
+    padding-bottom: 30px;;
+    display:flex;
+    flex-wrap: nowrap;
+    align-items: center;
     
 }
-.logo{
-    margin-left: 15px;
-    margin-top: 15px;
-    width: 70px;
-    height: 50px;
-    border: 5px solid aqua;
+.logo>.logoEncabezado{
+    width:190px;
+    height: 190px;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-top: 30px;
 }
+
 .Nombre{
     margin-left: 15px;
-    margin-top: 8px;
+    margin-top: 45px;
     margin-bottom: 5px;;
-    border: 5px solid greenyellow;
+    /*border: 5px solid greenyellow;*/
+    display:flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    color: rgb(99, 50, 36);
+    
 }
 .BarraNavegacion{
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: 10px;
-    margin-left: 35px;
+    margin-left: 25px;
     margin-right: 35px;
-    border: 5px solid green;
+    /*border: 5px solid green;*/
     padding-top: 20px;
+    display:flex;
+    flex-wrap: nowrap;
+    align-items: center;
     
     
 }
+
 .linksNavegacion{
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 100;
     margin-left: 35px;
     margin-right: 35px;
 }
+.BarraNavegacion>a{
+    text-decoration: none;
+    color: #F5C400;
+}
+
 .Instagram{
     font-size: 20px;
-    margin-top: 33px;
+    margin-top: 53px;
     margin-left: 25px;
+    color: rgb(99, 50, 36);
 }
 .LogoInstagram{
     margin-left: 30px;
     margin-top: 21px;
-    border: 5px solid greenyellow;
-    width:35px;
-    height: 35px;
+    /*border: 5px solid greenyellow;*/
+    width:45px;
+    
 }
 .Presentacion{
     margin-top: 7px;
-    width: 163vh;
-    height: 500px;
-    border: 5px solid blue;
+    padding-top: 15px;
+    width: 158vh;
+    height: 700px;
+    /*border: 5px solid blue;*/
     display:flex;
 }
-.VideoPresentacion{
-    width: 700px;
-
-    margin: 10px;
-    border: 5px solid blue;
+.GallinaPresentacion{
+    width: 1400px ;
+    margin: -8px;
+    /*border: 5px solid blue;*/
     border-radius: 5%;
+    
 }
 .ParrafoPresentacion{
-    width: 700px;
+    width: 720px;
     height: 350px;
-    margin: 50px;
-    border: 5px solid blue;
+    margin-left: -780px;
+    margin-top: 100px;
+    /*border: 5px solid blue;*/
     padding: 33px;
+    text-align: justify;
+    font-size: xx-large;
+    color: rgb(99, 50, 36);
 }
+hr{
+    
+    border: none;
+    border-top: 2px solid #C03924;
+    width: 80%;
+}
+
+
 .Productos{
     margin-top: 7px;
-    width: 163vh;
+    width: 155vh;
     height: 700px;
     border: 5px solid yellow;
     
@@ -77,9 +110,10 @@
 .NuestrosProductos{
     margin: 40px;
     font-size: 40px;
+    color:rgb(99, 50, 36);
 }
 .ContenidoProductos{
-    width: 160vh;
+    width: 150vh;
     height: 500px;
     border:5px solid orange;
     margin-left: 10px;
@@ -94,26 +128,29 @@
 .ContenedorCarrusel{
     height: 450px;
     width:730px;
-    margin:25px;
+    margin:-20pxpx;
     border: 5px solid orangered;
     overflow: hidden;
+    background-color: #C03924;
 }
 .Carrusel{
     display: flex;
     transition: transform 0.5s ease-in-out;
     scroll-snap-type: x mandatory;
-    
-} 
+}    
 .carruselElemento>img{
-    width: 698px;
+    width: 730px;
     height: 450px;
     border-radius: 5%;
+    background-color: #C03924;
 }
+
 #prev, #next{
     background-color: white;
     border:none;
     font-size: 25px;
     font-weight: 500;
+    background-color: #C03924;
 }
 .nuestroInstagram{
     width: 163vh;
@@ -261,28 +298,88 @@ footer{
     margin-top: 50px;
     margin-left: 99px;
 }
+.Certificados{
+    margin-top: 15px;
+    width: 163vh;
+    height: 920px;
+    border: 5px solid red;
+}
+.Certificados>h1{
+    margin-left: 120px;
+}
+.ICA{
+    margin-top: 30px;
+    width: 700px;
+    margin-left: 400px;
+}
+.Corponor{
+    margin-left: 500px
+}
 /*Página Contacto*/
-.FormularioContacto{
+.RedesYTelefonos{
     width: 165vh;
     height: 700px;
     border: 5px solid red;
-    
+    display: flex;   
 }
-.cuadroFormulario{
-    background-color: grey;
-    width: 600px;
-    height: 500px;
-    margin-left: 100px;
-    margin-top: 90px;
-    
-    
-    display: block;
+.Redes{
+    margin: 15px;
+    border: 5px solid yellow;
+    padding-right: 80px;
 }
-.cuadroFormulario>label>input>textarea{
-    margin-left: 50px;
-    width: 300px;
-    padding: 10px;
-    margin: 5px 0 15px;
+.Redes>h1{
+    margin-left: 75px;
+    margin-top: 60px;
+    padding-bottom: 40px;
 
+}
+.Redes>h2{
+    margin-left: 150px;
+    margin-top: 70px;
+}
+.Facebook{
+    width:100px;
+    margin-left: 300px;
+    margin-top: -95px;
     
+}
+.Instagram2{
+    width:88px;
+    margin-left: 310px;
+    margin-top:-95px
+}
+.TikTok2{
+    width: 120px;
+    margin-left: 289px;
+    margin-top: -93px
+}
+.Telefonos{
+    border: 5px solid yellow;
+    width: 800px;
+    height: 350px;
+    margin-left: 25px;
+    margin-top: 180px;
+}
+.Telefonos>h1,.TelefonosContacto,h3{
+    text-align: center;
+}
+/*CSS a todas las páginas web*/
+
+.fjalla-one-regular {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 200;
+    font-style:normal;
+}
+html>*>h1,h2,h3,p{
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 200;
+    font-style:normal;
+}
+.Encabezado{
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 200;
+    font-style:normal;
+}
+html{
+    background-color: #C94A32 ;
 }
