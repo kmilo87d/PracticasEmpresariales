@@ -390,21 +390,37 @@ footer{
     height: 920px;
     /*border: 5px solid red;*/
     margin-left: -8px;
+    
+    
 }
 .Certificados>h1{
     margin-left: 80px;
     font-family: "Fjalla One", sans-serif;
     color: rgb(99, 50, 36);
+    
+}
+.aguasResiduales{
+    display: flex;
+}
+.Certificados>p{
+    width: 1000px;
+    height: 300px;
+    /*border: 5px solid yellow;*/
+    margin-top: 35px;
+    margin-left:200px ;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    padding: 20px;
 }
 .ICA{
     margin-top: 30px;
     width: 600px;
-    margin-left: 400px;
+    margin-left: 180px;
 }
 .Corponor{
-    margin-left: 200px;
+    margin-left: 00px;
     width: 400px;
-    margin-left: 490px;
     margin-top: 45px;;
 }
 /*Página Contacto*/
