@@ -1,0 +1,14 @@
+@media (max-width:400px) {
+    #Escritorio{
+        display: none;
+    }
+
+    #Movil.Encabezado{
+        display:block;
+        
+    }
+    #Movil>img{
+        width: 1px;
+        
+    }
+}
