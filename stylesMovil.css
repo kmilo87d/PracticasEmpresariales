@@ -3,12 +3,72 @@
         display: none;
     }
 
-    #Movil.Encabezado{
-        display:block;
-        
+    #Movil {
+        display: block;
+        width: 380px;
     }
-    #Movil>img{
-        width: 1px;
-        
+
+    .logoEmpresaMovil {
+        position: relative;
+    }
+
+    .boton-menu {
+        display: block;
+        width: 50px;
+        height: 40px;
+        background-color: rgb(215, 36, 13);
+        color: white;
+        font-size: 25px;
+        border: none;
+        cursor: pointer;
+        border-radius: 15px;
+    }
+
+    #menuNavegacion {
+        display: none;
+        position: absolute;
+        top: 45px;
+        left: 0;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #F2D2C2;
+        padding: 15px;
+        min-width: 180px;
+        z-index: 1000;
+    }
+
+    #menuNavegacion.activo {
+        display: flex;
+    }
+
+    #menuNavegacion a {
+        color: #7D281B;
+        text-decoration: none;
+        padding: 10px;
+    }
+    
+
+    .logoEmpresaMovil img {
+        width: 320px;
+        margin-top: -30px;
+        margin-left: 20px;
+    }
+    #Movil.LineaHorizontalMovil{
+        width: 300px;
+        margin-top: -50px;
+    }
+    .PresentacionMovil{
+        height: 400px;
+    }
+    .PresentacionMovil>img{
+        width: 300px;
+        margin-left: 30px;
+        margin-right: -10px;
+        border-radius: 15px;
+    }
+    .PresentacionMovil>p{
+        width: 350px;
+        font-size: 15px;
     }
 }
+    
