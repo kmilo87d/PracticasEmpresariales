@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="stylesEscritorio.css">
+    <link rel="stylesheet" href="stylesMovil.css">
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="Encabezado">
+    <section class="Encabezado" id="Escritorio">
         <div class = "logo">
             <img src="./Imagenes/Imagenes encabezado/logoMasCriollo.jpg" alt="Logo empresa" class="logoEncabezado">
             
@@ -23,11 +24,31 @@
         </nav>
         <h2 class ="Instagram">Síguenos en Instagram</h2>
         <a href="https://www.instagram.com/avimascriollo/?hl=en"><img class="LogoInstagram" src="./Imagenes/logo_Instagram.svg.webp"><img></a>
-        
-    
     </section>
-    <hr></hr>
-    <section class="RedesYTelefonos">
+    <!--Movil-->
+    <section class="EncabezadoMovil" id="Movil">
+        <div class = "logoEmpresaMovil">
+            <button class="boton-menu" id="botonMenu"
+                aria-label="Abrir menú"
+                aria-expanded="false">
+                ☰
+            </button>
+            <nav id="menuNavegacion">
+                <a href="index.html">Inicio</a>
+                <a href="nosotros.html">Sobre Nosotros</a>
+                <a href="contacto.html">Contacto</a>
+                
+            </nav>
+            <img src="./Imagenes/Imágenes encabezado Movil/logoMovil.png" alt="Logo empresarial" class="logoEmpresarial">
+            
+        </div>
+    </section>
+    <hr id="Movil" class="LineaHorizontalMovil"></hr>
+    </br id="Movil">
+    </section>
+    <hr id ="Escritorio"></hr>
+    <!--Escritorio-->
+    <section class="RedesYTelefonos" id="Escritorio">
         <div class="Redes">
             <h1>Síguenos en nuestras redes</h1>
             <h2>Facebook</h2>
@@ -55,7 +76,51 @@
         </div>
 
     </section>
-    <footer>
+    <!--Móvil-->
+    <section class="RedesSocialesMovil" id="Movil">
+        <div class="RedesMovil">
+            <div class="EnlaceRedesMovil"></div>
+                <h1> Nuestras Redes sociales</h1>
+                <h2>Facebook</h2>
+                <a href="https://www.facebook.com/mascriollo.avicola/"><img src="./Imagenes/Imágenes redes pág contacto/facebook.svg" class="FaceBookMovil" ></a>
+                <h2>Instagram</h2>
+                <a href="https://www.instagram.com/avimascriollo/?hl=en"><img src="./Imagenes/Imágenes redes pág contacto/instagram.svg" class="InstagramMovil" ></a>
+                <h2>TikTok</h2>
+                <a href="https://www.tiktok.com/@avicola.mascriollo"><img src="./Imagenes/Imágenes redes pág contacto/tiktok.svg" class="TikTokMovil" ></a>
+        </div>
+
+    </section>
+    </br id="Movil"></br id="Movil"></br id="Movil"></br id="Movil">
+    <hr id="Movil" class="LineaHorizontalMovil"></hr>
+    </br id="Movil">
+    <section class="TelefonosMovil" id="Movil">
+        <div class="TelMovil">
+            <h1>Teléfonos</h1>
+            <h2 class="TelefonosContactoMovil">318 253 0555</h2>
+            <h2 class="TelefonosContactoMovil">315 366 6660</h2>
+            <h2 class="TelefonosContactoMovil">318 801 7236</h2>
+            <h2 class="TelefonosContactoMovil">310 255 0886</h2>
+        </div>
+
+    </section>
+    </br id="Movil"></br id="Movil"></br id="Movil"></br id="Movil">
+    <hr id="Movil" class="LineaHorizontalMovil"></hr>
+    </br id="Movil">
+
+    <section class="Correosmovil" id="Movil">
+        <div class="EmailMovil">
+            <h1>Email de contacto</h1>
+            <h2>xxxxxx@xxxxxxx</h2>
+            <h2>xxxxxx@xxxxxxx</h2>
+            <h2>xxxxxx@xxxxxxx</h2>
+        </div>
+   
+    </section>
+    </br id="Movil"></br id="Movil"></br id="Movil"></br id="Movil">
+    <hr id="Movil" class="LineaHorizontalMovil"></hr>
+    </br id="Movil">
+    <!--Footer Escritorio-->
+    <footer id ="Escritorio">
         </hr>
         <img src="./Imagenes/Imágenes footer/imagenFooter.png" alt ="Logo empresa" class="logoEmpresaFooter">
         <!--<div class="ContactoFooter">
@@ -79,8 +144,22 @@
             </div>
         </div>
     </footer>
+    <!--Footer Movil-->
+     <!--Footer movil-->
+    <footer class="FooterMovil" id="Movil">
+        <div class="ContenedorFooter">
+            <img src="./Imagenes/Imágenes footer Movil/footerMovil.png" alt="Logo Footer">
+            <a href="https://www.facebook.com/mascriollo.avicola/"><img class="FacebookFooter" src="Imagenes/Imágenes footer/facebook.svg" alt="Logo Facebook"></a>
+            <a href="https://www.instagram.com/avimascriollo/"><img class="InstagramFooter" src="./Imagenes/Imágenes footer/instagram.svg" alt="Logo Instagram"></a>
+            <a href="https://www.tiktok.com/@avicola.mascriollo"><img class="TikTokFooter" src="./Imagenes/Imágenes footer/tiktok.svg" alt="Logo TikTok"></a>
+            <a><img class="WhatsappFooter" src="./Imagenes/Imágenes footer/whatsapp.svg" alt="Logo Whatsapp"></a>
+            </div>
+        </div>
+    </footer>
+    
     
     <script src="javas1.js"></script>
+    <script src="javasMovil.js" defer></script>
 
 </body>
 </html>

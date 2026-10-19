@@ -1,4 +1,4 @@
-@media (max-width:400px) {
+@media (max-width:420px) {
     #Escritorio{
         display: none;
     }
@@ -10,6 +10,7 @@
 
     .logoEmpresaMovil {
         position: relative;
+        margin-left: 15px;
     }
 
     .boton-menu {
@@ -62,13 +63,334 @@
     }
     .PresentacionMovil>img{
         width: 300px;
-        margin-left: 30px;
+        margin-left: 38px;
         margin-right: -10px;
         border-radius: 15px;
     }
     .PresentacionMovil>p{
         width: 350px;
         font-size: 15px;
+        margin-left: 10px;
     }
+    .ProductosMovil>.ContainerProductos{
+        width:360px;
+        height: 1100px;
+        /*border: 3px solid yellow;*/
+        margin-left: 7px;
+    }
+    html>*{
+        font-family: "Fjalla One", sans-serif;
+        color: rgb(99, 50, 36);
+    }
+    .ContainerProductos>h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    .ContainerProductos>p{
+       
+        margin-left: 15px;
+        /*border:3px solid black;*/
+        height: 80px;
+    }
+    .ContainerProductos>img{
+        width: 340px;
+        margin-left: 4px;
+        border: 3px solid yellow;
+        padding: 3px;
+    }
+    .ContainerInstagram{
+        width:360px;
+        height: 1150px;
+        /*border: 3px solid yellow;*/
+        
+    }
+    .ContainerInstagram>h1{
+        text-align: center;
+    }
+    .ContainerInstagram>a>img{
+        width: 340px;
+        margin-left: 11px;
+        border: 3px solid yellow;
+        padding: 3px;
+    }
+    .ContainerInstagram>p{
+        margin-left: 12px;
+        height: 100px;
+    }
+    .FooterMovil{
+        height: 250px;
+        
+    }
+    .ContenedorFooter>img{
+        width: 410px;
+        height: 260px;
+        margin-bottom: -20px;
+        border-radius: 15px;
+        z-index: -1;
+    }
+    .ContenedorFooter>a>img{
+        width:25px;
+        margin-left: 7px;
+        z-index: 1;
+        margin-top: -200px;
+    }
+    /*Página Sobre nosotros*/
+    .MisionVision{
+        width: 360px;
+        height:940px;
+        /*border: 3px solid yellow;*/
+        margin-left: 4px;
+        display: block;
+        margin-top: -20px;
+    }
+    .Mision,.Vision{
+        display: block;
+    }
+    .Mision>img,p{
+        width: 340px;
+        height: 220px;
+        margin-left: -30px;
+        padding: 0px;
+    }
+    .Mision>p{
+        margin-left: -30px;
+        font-size: 17px;
+    }
+    .Vision{
+        margin-top: -50px;
+    }
+    .Vision>img{
+        width: 340px;
+        height: 220px;
+        margin-left: -30px;
+        padding: 0px;
+    }
+    .Vision>p{
+        margin-left: -30px;
+        font-size: 17px;
+    }
+    .FilosofiaEmpresarial{
+        width: 360px;
+        height:1470px;
+        /*border: 3px solid yellow;*/
+        margin-left: 4px;
+        display: block;
+        margin-top: -20px;
+    }
+    .FilosofiaEmpresarial>h1{
+        text-align: center;
+        margin-left: 0px;
+        font-display: block;
+    }
+    .PrincipioUno{
+        height: 40px;
+        width: 220px;
+    }
+    .PrincipiosTrabajo>h2{
+        font-size: 23px;
+        margin-left: 50px;
+        padding-left: 10px;
+    }
+    .Principio1{
+        margin-left: 80px;
+        margin-top: 10px;
+        width: 200px;
+        height: 190px;
+        
+    }
+    .TituloMision, .TituloVision{
+        text-align: left;
+
+    }
+    .TituloValoresInstitucionales>h1{
+        margin-left: 15px;
+        text-align: left;
+    }
+    .Principio1>p{
+        font-size: 20px;
+        width: 400px;
+        margin-left: 27px;
+    }
+    .Principio1>img{
+        display: none;
+    }
+    .PrincipiosTrabajo>.PrincipioDos{
+        margin-top: 21px;
+        height: 50px;
+        width: 300px;
+        margin-left: 15px;
+        display: block;
+        padding-right: 0px;
+        text-align: left;
+        padding-left: 0px;
+        padding-left: 10px;
+    }
+    .Principio2>img{
+        display: none;
+    }
+    .Principio2{
+        width: 200px;
+        margin-left: 15px;
+        margin-top:20px;
+        height: 240px;
+    }
+    .Principio2>p{
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top: 80px;
+        
+    }
+    .PrincipiosTrabajo{
+        margin-left: 0px;
+    }
+    .PrincipiosTrabajo>.PrincipioTres{
+        margin-top: 20px;
+        width: 250px;
+        margin-left: 100px;
+        height: 80px;
+    }
+    .Principio3{
+        margin-top: 20px;
+        width:200px;
+        height: 200px;
+        margin-left: 110px;
+    }
+    .Principio3>p{
+        font-size: 20px;
+        background-color: transparent;
+        margin-top: 50px;
+        margin-left: 50px;
+        
+    }
+    .Principio3>img{
+        display: none;
+    }
+    .PrincipiosTrabajo>.PrincipioCuatro{
+        margin-top: 20px;
+        margin-left: 10px;
+        width: 200px;
+        text-align: left;
+        height: 40px;
+        padding-bottom: 25px;
+    }
+    .Principio4{
+        margin-top: 20px;
+        height: 200px;
+        margin-left: 15px;
+        width: 230px;
+    }
+    .Principio4>img{
+        display: none;
+    }
+    .Principio4>p{
+        font-size: 20px;
+        margin-top: 40px;
+        width: 180px;
+        margin-left: 40px;
+        margin-bottom: -10px;
+    }
+    .UbicacionGeografica{
+        width: 370px;
+        height: 780px;
+        display: block;
+        /*border: 3px solid yellow;*/
+        margin-left: 15px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .UbicacionGeografica>h1{
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .textoUbicacion>p{
+        font-size: 20px;
+        margin-left: 85px;
+        padding: 0px;
+        margin-top: 10px;
+        width: 300px;
+        margin-bottom: 0px;
+        height: 100px;
+        margin-top: 10px;
+    }
+    .textoUbicacion>img{
+        margin-top: 0px;
+        margin-left: 160px;
+        border-radius: 60%;
+        height: 150px;
+        margin-top: -25px;
+        
+    }
+    .imagenUbicacion{
+        margin-left: -10px;
+        padding: 0px;
+        width: 300px;
+        height: 300px;
+        margin-right: -0px;
+        margin-top: -20px;
+        border: none;
+    }
+    .imagenUbicacion>img{
+        width: 340px;
+        height: 250px;
+        border: 3px solid black;
+        margin-left: 25px;
+    }
+    .Certificados{
+        width:370px;
+        height:1080px;
+        margin: 0px;
+        padding: 0px;
+        /*border: 3px solid yellow;*/
+    }
+    .Certificados>h1{
+        text-align: left;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 20px;
+        margin-left: 15px;
+        width: 50px;
+    }
+    .aguasResiduales{
+        display: block;
+    }
+    .ICA{
+        margin: 0px;
+        padding: 0px;
+        width: 400px;
+        height: 184px;
+        margin-top: 20px;
+        margin-left: -15px;
+    }
+    .Corponor{
+        margin: 0px;
+        padding: 0px;
+        width: 300px;
+        margin-left: 35px;
+    }
+    .Certificados>p{
+        margin: 0px;
+        padding: 0px;
+        width: 360px;
+        font-size: 15px;
+        margin-left: 4px;
+    }
+    /*Página de Contacto*/
+    .RedesMovil{
+        text-align: center;
+    }
+    .EnlaceRedes{
+        width: 370px;
+    }
+    .FaceBookMovil, .InstagramMovil, .TikTokMovil{
+        width: 50px;
+    }
+    .TelMovil>h1,h2{
+        text-align: center;
+    }
+    .EmailMovil>h1{
+        text-align: center;
+    }
+
 }
     
