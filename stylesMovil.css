@@ -63,14 +63,14 @@
     }
     .PresentacionMovil>img{
         width: 300px;
-        margin-left: 45px;
+        margin-left: 48px;
         margin-right: -10px;
         border-radius: 15px;
     }
     .PresentacionMovil>p{
         width: 350px;
         font-size: 15px;
-        margin-left: 15px;
+        margin-left: 19px;
     }
     .ProductosMovil>.ContainerProductos{
         width:360px;
