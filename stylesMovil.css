@@ -10,7 +10,7 @@
 
     .logoEmpresaMovil {
         position: relative;
-        margin-left: 15px;
+        margin-left: 17px;
     }
 
     .boton-menu {
@@ -63,20 +63,20 @@
     }
     .PresentacionMovil>img{
         width: 300px;
-        margin-left: 38px;
+        margin-left: 45px;
         margin-right: -10px;
         border-radius: 15px;
     }
     .PresentacionMovil>p{
         width: 350px;
         font-size: 15px;
-        margin-left: 10px;
+        margin-left: 15px;
     }
     .ProductosMovil>.ContainerProductos{
         width:360px;
         height: 1100px;
         /*border: 3px solid yellow;*/
-        margin-left: 7px;
+        margin-left: 14px;
     }
     html>*{
         font-family: "Fjalla One", sans-serif;
@@ -105,6 +105,7 @@
         width:360px;
         height: 1150px;
         /*border: 3px solid yellow;*/
+        margin-left: 8px;
         
     }
     .ContainerInstagram>h1{
@@ -121,26 +122,29 @@
         height: 100px;
     }
     .FooterMovil{
+        width: 340px;
         height: 250px;
         
     }
     .ContenedorFooter>img{
-         width: 100%;
+        width: 100%;
         max-width: 410px;
         height: auto;
         margin-bottom: -20px;
         border-radius: 15px;
         z-index: -1;
+        margin-left: 8px;
     }
     .ContenedorFooter>a>img{
         width:25px;
         margin-left: 7px;
         z-index: 1;
         margin-top: -200px;
+        
     }
     /*Página Sobre nosotros*/
     .MisionVision{
-        width: 360px;
+        width: 340px;
         height:940px;
         /*border: 3px solid yellow;*/
         margin-left: 4px;
@@ -153,12 +157,13 @@
     .Mision>img{
         width: 340px;
         height: 220px;
-        margin-left: -30px;
+        margin-left: -23px;
         padding: 0px;
     }
     .Mision>p{
-        margin-left: -30px;
+        margin-left: -23px;
         font-size: 17px;
+        width: 340px;
     }
     .Vision{
         margin-top: -50px;
@@ -166,22 +171,25 @@
     .Vision>img{
         width: 340px;
         height: 220px;
-        margin-left: -30px;
+        margin-left: -23px;
         padding: 0px;
     }
     .Vision>p{
-        margin-left: -30px;
+        margin-left: -20px;
         font-size: 17px;
+        width: 340px;
     }
     .FilosofiaEmpresarial{
         width: 360px;
         height:1470px;
         /*border: 3px solid yellow;*/
-        margin-left: 4px;
+        margin-left: 15px;
         display: block;
         margin-top: -20px;
     }
     .FilosofiaEmpresarial>h1{
+        margin: 0px;
+        width: 360px;
         text-align: center;
         margin-left: 0px;
         font-display: block;
@@ -262,7 +270,7 @@
     .Principio3>p{
         font-size: 20px;
         background-color: transparent;
-        margin-top: 50px;
+        margin-top: 15px;
         margin-left: 50px;
         
     }
@@ -288,7 +296,7 @@
     }
     .Principio4>p{
         font-size: 20px;
-        margin-top: 40px;
+        margin-top: 5px;
         width: 180px;
         margin-left: 40px;
         margin-bottom: -10px;
@@ -303,13 +311,14 @@
         padding: 0px;
     }
     .UbicacionGeografica>h1{
-        margin-left: 0px;
+        width: 370px;
+        margin-left: 10px;
         text-align: center;
         margin-top: 0px;
     }
     .textoUbicacion>p{
         font-size: 20px;
-        margin-left: 85px;
+        margin-left: 98px;
         padding: 0px;
         margin-top: 10px;
         width: 300px;
@@ -319,14 +328,15 @@
     }
     .textoUbicacion>img{
         margin-top: 0px;
-        margin-left: 160px;
+        margin-left: 175px;
         border-radius: 60%;
         height: 150px;
         margin-top: -25px;
         
     }
     .imagenUbicacion{
-        margin-left: -10px;
+        width: 370px;
+        margin-left: 3px;
         padding: 0px;
         width: 300px;
         height: 300px;
@@ -352,12 +362,13 @@
         margin: 0px;
         padding: 0px;
         margin-top: 20px;
-        margin-left: 15px;
+        margin-left: 35px;
         width: 50px;
     }
     .aguasResiduales{
         display: block;
     }
+    
     .ICA{
         margin: 0px;
         padding: 0px;
@@ -377,7 +388,7 @@
         padding: 0px;
         width: 360px;
         font-size: 15px;
-        margin-left: 4px;
+        margin-left: 15px;
     }
     /*Página de Contacto*/
     .RedesMovil{
