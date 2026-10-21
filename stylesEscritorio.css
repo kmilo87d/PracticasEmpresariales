@@ -30,7 +30,7 @@
     display:flex;
     flex-wrap: nowrap;
     align-items: center;
-    color: rgb(99, 50, 36);
+    color: rgb(242, 86, 30);
     
 }
 .BarraNavegacion{
@@ -48,7 +48,7 @@
     
 }
 .BarraNavegacion a:hover{
-    background-color: orange;
+    background-color: rgb(242, 86, 30);
     color:whitesmoke
 
 }
@@ -72,7 +72,7 @@
     font-size: 20px;
     margin-top: 53px;
     margin-left: px;
-    color: rgb(99, 50, 36);
+    color: rgb(242, 86, 30);
 }
 .LogoInstagram{
     margin-left: 30px;
@@ -105,7 +105,7 @@
     padding: 33px;
     text-align: justify;
     font-size: xx-large;
-    color: rgb(99, 50, 36);
+    color: black;
 }
 hr{
     
@@ -116,7 +116,7 @@ hr{
 
 
 .Productos{
-    margin-top: 7px;
+    margin-top: 100px;
     width: 1300px;
     height: 650px;
     /*border: 5px solid yellow;*/
@@ -125,7 +125,7 @@ hr{
 .NuestrosProductos{
     margin: 40px;
     font-size: 45px;
-    color:rgb(99, 50, 36);
+    color:rgb(242, 86, 30);
 }
 .ContenidoProductos{
     width: 1300px;
@@ -170,7 +170,7 @@ hr{
 }
 
 .botonAnterior, .botonSiguiente{
-    background-color: #C03924;
+    background-color: whitesmoke;
     border:none;
     font-weight: 300;
     height: 50px;
@@ -189,7 +189,7 @@ hr{
     /*border: 5px solid red;*/
     text-align: center;
     font-size: 30px;
-    color:rgb(99, 50, 36);
+    color:rgb(242, 86, 30);
     
 }
 .contenidoInstagram{
@@ -216,6 +216,7 @@ hr{
     font-size: 20px;
     text-align: justify;
     margin-top: 35px;
+    color: rgb(99, 50, 36);
 }
 .InstagramContenido>img{
     width: 350px;
@@ -326,7 +327,10 @@ footer{
     margin-top: 70px;
     margin-left: 45px;
     font-family: "Fjalla One", sans-serif; 
-    color: rgb(99, 50, 36);
+    color: rgb(242, 86, 30);
+}
+.TituloMision, .TituloVision{
+    color: rgb(242, 86, 30);
 }
 .Mision >img, .textoMision{
     width: 500px;
@@ -361,7 +365,7 @@ footer{
 }
 .FilosofiaEmpresarial>h1{
     font-family: "Fjalla One", sans-serif; 
-    color: #FFFFFF;
+    color: rgb(242, 86, 30);
     margin-left: 70px;
     
 }
@@ -531,7 +535,7 @@ footer{
 }
 .UbicacionGeografica>h1{
     font-family: "Fjalla One", sans-serif;
-    color: rgb(99, 50, 36);
+    color: rgb(242, 86, 30);
 }
 .textoUbicacion{
     width:580px;
@@ -572,7 +576,7 @@ footer{
 .Certificados>h1{
     margin-left: 80px;
     font-family: "Fjalla One", sans-serif;
-    color: rgb(99, 50, 36);
+    color: rgb(242, 86, 30);
     
 }
 .aguasResiduales{
@@ -603,15 +607,16 @@ footer{
 }
 /*Página Contacto*/
 .RedesYTelefonos{
-    width: 1350px;
+    width: 1300px;
     height: 700px;
-    border: 5px solid red;
+    /*border: 5px solid red;*/
     display: flex;
     margin-top: 40px;   
+    margin-left: 95px;
 }
 .Redes{
     margin: 15px;
-    border: 5px solid yellow;
+    /*border: 5px solid yellow;*/
     padding-right: 80px;
     font-family: "Fjalla One", sans-serif;
     color: rgb(99, 50, 36);
@@ -631,21 +636,25 @@ footer{
     width:100px;
     margin-left: 300px;
     margin-top: -95px;
+    border-radius: 50%;
     
 }
 .Instagram2{
-    width:88px;
-    margin-left: 310px;
-    margin-top:-95px
+    width:100px;
+    margin-left:300px;
+    margin-top:-95px;
+    border-radius: 50%;
 }
 .TikTok2{
-    width: 120px;
-    margin-left: 289px;
-    margin-top: -93px
+    width: 105px;
+    height: 100px;
+    margin-left: 300px;
+    margin-top: -100px;
+    border-radius: 50%;
 }
 .Telefonos{
-    border: 5px solid yellow;
-    width: 800px;
+    /*border: 5px solid yellow;*/
+    width: 700px;
     height: 350px;
     margin-left: 25px;
     margin-top: 100px;
@@ -657,14 +666,15 @@ footer{
 }
 .Telefonos>img{
     width: 200px;
-    margin-top: -200px;
+    margin-top: -300px;
     margin-left: 50px;
+    z-index: 5;
 }
 .Email{
-    width: 800px;
+    width: 700px;
     height: 200px;
     margin-top: 20px;
-    border: 5px solid yellow;
+    /*border: 5px solid yellow;*/
 }
 .Email>h1,p{
     text-align: center;
@@ -673,9 +683,9 @@ footer{
     font-size: 35px ;
 }
 .Email>img{
-    width: 180px;
+    width: 160px;
     margin-top: -200px;
-    margin-left: 70px;
+    margin-left: 89px;
 }
 /*CSS a todas las páginas web*/
 
@@ -685,7 +695,7 @@ footer{
     font-style:normal;
     color: rgb(99, 50, 36);
 }
-html>*>h1,h2,h3,p{
+html>*{
     font-family: "Fjalla One", sans-serif;
     font-weight: 200;
     font-style:normal;
@@ -697,7 +707,7 @@ html>*>h1,h2,h3,p{
     font-style:normal;
 }
 html>*{
-    background-color: #C94A32 ;
+    background-color: whitesmoke ;
    
     
 }
