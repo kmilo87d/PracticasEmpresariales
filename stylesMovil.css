@@ -11,6 +11,8 @@
     .logoEmpresaMovil {
         position: relative;
         margin-left: 17px;
+       
+        
     }
 
     .boton-menu {
@@ -23,6 +25,7 @@
         border: none;
         cursor: pointer;
         border-radius: 15px;
+         
     }
 
     #menuNavegacion {
@@ -33,9 +36,10 @@
         flex-direction: column;
         gap: 10px;
         background-color: #F2D2C2;
-        padding: 15px;
+        padding: 20px;
         min-width: 180px;
         z-index: 1000;
+        
     }
 
     #menuNavegacion.activo {
@@ -53,6 +57,7 @@
         width: 320px;
         margin-top: -30px;
         margin-left: 20px;
+        padding-bottom: 20px;
     }
     #Movil.LineaHorizontalMovil{
         width: 300px;
@@ -88,6 +93,7 @@
     .ContainerProductos>h1{
         text-align: center;
         font-size: 30px;
+        color:rgb(242, 86, 30)
     }
     .ContainerProductos>p{
        
@@ -110,6 +116,7 @@
     }
     .ContainerInstagram>h1{
         text-align: center;
+        color: rgb(242, 86, 30);
     }
     .ContainerInstagram>a>img{
         width: 340px;
@@ -125,6 +132,7 @@
         width: 340px;
         height: 250px;
         
+        
     }
     .ContenedorFooter>img{
         width: 100%;
@@ -134,12 +142,14 @@
         border-radius: 15px;
         z-index: -1;
         margin-left: 8px;
+        
     }
     .ContenedorFooter>a>img{
         width:25px;
-        margin-left: 7px;
+        margin-left: 20px;
         z-index: 1;
-        margin-top: -200px;
+        padding-top: -30pxpx;
+        
         
     }
     /*Página Sobre nosotros*/
@@ -150,23 +160,30 @@
         margin-left: 4px;
         display: block;
         margin-top: -20px;
+        
     }
     .Mision,.Vision{
         display: block;
+        width: 340px;
+        
     }
     .Mision>img{
         width: 340px;
         height: 220px;
         margin-left: -23px;
         padding: 0px;
+        
     }
     .Mision>p{
         margin-left: -23px;
         font-size: 17px;
         width: 340px;
+        
     }
     .Vision{
+        width: 340px;
         margin-top: -50px;
+        
     }
     .Vision>img{
         width: 340px;
@@ -178,6 +195,7 @@
         margin-left: -20px;
         font-size: 17px;
         width: 340px;
+        
     }
     .FilosofiaEmpresarial{
         width: 360px;
@@ -186,6 +204,8 @@
         margin-left: 15px;
         display: block;
         margin-top: -20px;
+                
+
     }
     .FilosofiaEmpresarial>h1{
         margin: 0px;
@@ -193,38 +213,49 @@
         text-align: center;
         margin-left: 0px;
         font-display: block;
+        
     }
     .PrincipioUno{
         height: 40px;
         width: 220px;
+        
     }
     .PrincipiosTrabajo>h2{
         font-size: 23px;
         margin-left: 50px;
         padding-left: 10px;
+        width: 300px;
+        
     }
     .Principio1{
-        margin-left: 80px;
+        margin-left: 85px;
         margin-top: 10px;
         width: 200px;
         height: 190px;
         
+        
     }
     .TituloMision, .TituloVision{
         text-align: left;
+        width: 300px;
 
     }
     .TituloValoresInstitucionales>h1{
         margin-left: 15px;
         text-align: left;
+        
+
+        
     }
     .Principio1>p{
         font-size: 20px;
         width: 400px;
         margin-left: 27px;
+        
     }
     .Principio1>img{
         display: none;
+        
     }
     .PrincipiosTrabajo>.PrincipioDos{
         margin-top: 21px;
@@ -236,36 +267,46 @@
         text-align: left;
         padding-left: 0px;
         padding-left: 10px;
+        
     }
     .Principio2>img{
         display: none;
+        width: 0px;
+        margin: 0px;
+        padding: 0px;
     }
     .Principio2{
         width: 200px;
         margin-left: 15px;
         margin-top:20px;
         height: 240px;
+        
     }
     .Principio2>p{
         font-size: 20px;
         margin-left: 20px;
         margin-top: 80px;
         
+        
     }
     .PrincipiosTrabajo{
         margin-left: 0px;
+        width: 340px;
+       
     }
     .PrincipiosTrabajo>.PrincipioTres{
         margin-top: 20px;
         width: 250px;
         margin-left: 100px;
         height: 80px;
+         
     }
     .Principio3{
         margin-top: 20px;
         width:200px;
         height: 200px;
-        margin-left: 110px;
+        margin-left: 105px;
+        
     }
     .Principio3>p{
         font-size: 20px;
@@ -276,6 +317,10 @@
     }
     .Principio3>img{
         display: none;
+        width: 0px;
+        margin: 0px;
+        padding: 0px;
+
     }
     .PrincipiosTrabajo>.PrincipioCuatro{
         margin-top: 20px;
@@ -284,15 +329,20 @@
         text-align: left;
         height: 40px;
         padding-bottom: 25px;
+        
     }
     .Principio4{
         margin-top: 20px;
         height: 200px;
         margin-left: 15px;
         width: 230px;
+        
     }
     .Principio4>img{
         display: none;
+        width: 0px;
+        margin: 0px;
+        padding: 0px;
     }
     .Principio4>p{
         font-size: 20px;
@@ -300,6 +350,7 @@
         width: 180px;
         margin-left: 40px;
         margin-bottom: -10px;
+        
     }
     .UbicacionGeografica{
         width: 370px;
@@ -309,12 +360,14 @@
         margin-left: 15px;
         margin: 0px;
         padding: 0px;
+        
     }
     .UbicacionGeografica>h1{
         width: 370px;
         margin-left: 10px;
         text-align: center;
         margin-top: 0px;
+        
     }
     .textoUbicacion>p{
         font-size: 20px;
@@ -325,6 +378,7 @@
         margin-bottom: 0px;
         height: 100px;
         margin-top: 10px;
+        
     }
     .textoUbicacion>img{
         margin-top: 0px;
@@ -333,22 +387,28 @@
         height: 150px;
         margin-top: -25px;
         
+        
+        
     }
     .imagenUbicacion{
         width: 370px;
-        margin-left: 3px;
+        margin-left: 0px;
         padding: 0px;
         width: 300px;
         height: 300px;
         margin-right: -0px;
         margin-top: -20px;
         border: none;
+        
+        
     }
     .imagenUbicacion>img{
         width: 340px;
         height: 250px;
         border: 3px solid black;
         margin-left: 25px;
+        
+        
     }
     .Certificados{
         width:370px;
@@ -356,6 +416,7 @@
         margin: 0px;
         padding: 0px;
         /*border: 3px solid yellow;*/
+        
     }
     .Certificados>h1{
         text-align: left;
@@ -364,9 +425,12 @@
         margin-top: 20px;
         margin-left: 35px;
         width: 50px;
+        
+        
     }
     .aguasResiduales{
         display: block;
+        
     }
     
     .ICA{
@@ -376,12 +440,16 @@
         height: 184px;
         margin-top: 20px;
         margin-left: -15px;
+        margin-right: 0px;
+        
     }
     .Corponor{
         margin: 0px;
         padding: 0px;
         width: 300px;
         margin-left: 35px;
+        margin-right: 0px;
+        
     }
     .Certificados>p{
         margin: 0px;
@@ -394,6 +462,10 @@
     .RedesMovil{
         text-align: center;
     }
+    .RedesMovil>h1{
+        color: rgb(242, 86, 30);
+
+    }
     .EnlaceRedes{
         width: 370px;
     }
@@ -403,9 +475,12 @@
     .TelMovil>h1,h2{
         text-align: center;
     }
+    .TelMovil>h1{
+        color:rgb(242, 86, 30) ;
+    }
     .EmailMovil>h1{
         text-align: center;
+        color: rgb(242, 86, 30);
     }
-
+  
 }
-    
