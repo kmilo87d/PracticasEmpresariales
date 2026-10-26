@@ -7,17 +7,15 @@
     /*border: 5px solid aquamarine;*/
     display: flex;
     padding-bottom: 0px;
-    display:flex;
     flex-wrap: nowrap;
     align-items: center;
+    padding-bottom: 25px;
     
 }
 .logo>.logoEncabezado{
     width:210px;
     height: 190px;
-    border-radius: 50%;
     margin-left: 40px;
-    margin-top: 10px;
     padding-top: 10px;
     
 }
@@ -27,25 +25,17 @@
     margin-top: 45px;
     margin-bottom: 5px;;
     /*border: 5px solid greenyellow;*/
-    display:flex;
-    flex-wrap: nowrap;
-    align-items: center;
     color: rgb(242, 86, 30);
     
 }
 .BarraNavegacion{
-    margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 25px;
     margin-right: 35px;
     /*border: 5px solid green;*/
-
     display:flex;
     flex-wrap: nowrap;
-    align-items: center;
-    
-    
-    
+    align-items: center;  
 }
 .BarraNavegacion a:hover{
     background-color: rgb(242, 86, 30);
@@ -71,7 +61,7 @@
 .Instagram{
     font-size: 20px;
     margin-top: 53px;
-    margin-left: px;
+    text-align: center;
     color: rgb(242, 86, 30);
 }
 .LogoInstagram{
@@ -82,7 +72,7 @@
     
 }
 .Presentacion{
-    margin-top: 50px;
+    
     width: 1300px;
     height: 700px;
     /*border: 5px solid blue;*/
@@ -111,12 +101,12 @@ hr{
     
     border: none;
     border-top: 2px solid #C03924;
-    width: 80%;
+    width: 75%;
 }
 
 
 .Productos{
-    margin-top: 100px;
+    margin-top: 70px;
     width: 1300px;
     height: 650px;
     /*border: 5px solid yellow;*/
@@ -700,14 +690,6 @@ html>*{
     font-weight: 200;
     font-style:normal;
     color: rgb(99, 50, 36);
-}
-.Encabezado{
-    font-family: "Fjalla One", sans-serif;
-    font-weight: 200;
-    font-style:normal;
-}
-html>*{
     background-color: whitesmoke ;
-   
-    
 }
+

@@ -20,7 +20,7 @@
         width: 50px;
         height: 40px;
         background-color: rgb(215, 36, 13);
-        color: white;
+        color: whitesmoke;
         font-size: 25px;
         border: none;
         cursor: pointer;
@@ -35,7 +35,7 @@
         left: 0;
         flex-direction: column;
         gap: 10px;
-        background-color: #F2D2C2;
+        background-color: rgb(242, 86, 30);
         padding: 20px;
         min-width: 180px;
         z-index: 1000;
@@ -47,7 +47,7 @@
     }
 
     #menuNavegacion a {
-        color: #7D281B;
+        color: whitesmoke;
         text-decoration: none;
         padding: 10px;
     }
@@ -65,15 +65,15 @@
     }
     .PresentacionMovil{
         height: 400px;
+        width: 340px;
     }
     .PresentacionMovil>img{
         width: 300px;
         margin-left: 48px;
-        margin-right: -10px;
         border-radius: 15px;
     }
     .PresentacionMovil>p{
-        width: 350px;
+        width: 340px;
         font-size: 15px;
         margin-left: 19px;
     }
