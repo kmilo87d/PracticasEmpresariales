@@ -60,7 +60,7 @@
         padding-bottom: 20px;
     }
     #Movil.LineaHorizontalMovil{
-        width: 300px;
+        width: 77%;
         margin-top: -50px;
     }
     .PresentacionMovil{
@@ -353,6 +353,36 @@
         margin-bottom: -10px;
         
     }
+    .SAGRILAFT{
+        width: 340px;
+        height:800px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .SAGRILAFT>h1{
+        font-size:2rem;
+        padding-top: 10px;
+        margin-left: 35px;
+    }
+    .ContenidoSAGRILAFT{
+        display: block;
+        margin: 0px;
+        padding: 0px;
+        width: 340px;
+    }
+    .ContenidoSAGRILAFT>video{
+        width:260px;
+        margin-left: 65px;
+    }
+    .ContenidoSAGRILAFT>p{
+        margin: 0px;
+        padding: 0px;
+        font-size: 15px;
+        text-align: justify;
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }    
     .UbicacionGeografica{
         width: 30px;
         height: 860px;

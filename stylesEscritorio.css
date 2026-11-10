@@ -513,6 +513,31 @@ footer{
 .PrincipioDos{
     text-align: right;
 }
+
+.SAGRILAFT{
+    padding: 40px;
+    margin-left: 32px;
+    color: rgb(242, 86, 30);
+    margin-top: 20px;
+    height: 700px;
+    
+}
+.ContenidoSAGRILAFT{
+    display: flex;
+}
+.ContenidoSAGRILAFT>video{
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.ContenidoSAGRILAFT>p{
+    padding:50px;
+    margin-left: 40px;
+    margin-top: 120px;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(99, 50, 36);
+}
 .UbicacionGeografica{
     width: 1300px;
     height: 600px;
