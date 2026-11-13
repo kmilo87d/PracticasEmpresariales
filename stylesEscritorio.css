@@ -367,6 +367,16 @@ footer{
     margin-left: 88px;
     font-size: 40px;
 }
+.PrincipioUno{
+    background-color: #648b42 ;
+    height: 100px;
+    border-radius: 15px;
+    padding-top: 40px;
+    color: rgb(123, 36, 5);
+    box-shadow: 4px 6px 15px rgba(0,0,0,0.30);
+    border-bottom: black;
+    
+}
 .Principio1{
     display:flex;
     /*border: 5px solid black;*/
@@ -378,16 +388,16 @@ footer{
     padding-right: 50px;
    
 }
-.PrincipioUno{
-    background-color: #648b42 ;
-    height: 100px;
+.PrincipioDos{
+    background-color: #A83D36;
+    height: 90px;
     border-radius: 15px;
-    padding-top: 40px;
+    padding-top: 30px;
+    margin-top: -1px;
     color: rgb(123, 36, 5);
     box-shadow: 4px 6px 15px rgba(0,0,0,0.30);
     border-bottom: black;
-    
-}
+}  
 .Principio2{
     height: 400px ;
     /*border: 5px solid black;*/
@@ -401,16 +411,6 @@ footer{
     padding-right: 50px;
     
 }
-.PrincipioDos{
-    background-color: #A83D36;
-    height: 90px;
-    border-radius: 15px;
-    padding-top: 30px;
-    margin-top: -1px;
-    color: rgb(123, 36, 5);
-    box-shadow: 4px 6px 15px rgba(0,0,0,0.30);
-    border-bottom: black;
-}  
 .Principio2>img{
     width: 400px;
     margin-left: 80px;
@@ -421,6 +421,18 @@ footer{
     text-align: right;
     color: rgb(123, 36, 5);
 }
+.PrincipioTres{
+    background-color: #E8C66A;
+    border-radius: 15px;
+    border-radius: 15px;
+    padding-top: 30px;
+    height: 90px;
+    margin-top: -1px;
+    color:rgb(123, 36, 5);
+    box-shadow: 4px 6px 15px rgba(0,0,0,0.30);
+    border-bottom: black;
+}
+
 .Principio3{
     height: 400px;
     /*border: 5px solid black;*/
@@ -440,9 +452,17 @@ footer{
     color: rgb(123, 36, 5);
 }
 .PrincipioCuatro{
+    background-color: #416B75;
+    height: 90px;
+    padding-top: 40px;
+    border-radius: 15px;
+    margin-top: -5px;
+    box-shadow: 4px 6px 15px rgba(0,0,0,0.30);
+    border-bottom: black;
     text-align: right;
     color: rgb(123, 36, 5);
 }
+
 .Principio4{
     height: 400px;
     /*border: 5px solid black;*/
@@ -450,18 +470,10 @@ footer{
     flex-wrap: nowrap;
     align-items: center;
     padding-right: 50px;
-    
-}
-.PrincipioTres{
-    background-color: #E8C66A;
+    background-color: #416B75;
     border-radius: 15px;
-    border-radius: 15px;
-    padding-top: 30px;
-    height: 90px;
-    margin-top: -1px;
-    color:rgb(123, 36, 5);
-    box-shadow: 4px 6px 15px rgba(0,0,0,0.30);
-    border-bottom: black;
+    margin-top: -32px;
+    margin-left: 111px;   
 }
 .Principio4>img{
     width: 400px;
@@ -472,22 +484,6 @@ footer{
     text-align: right;
     color: rgb(123, 36, 5);
 }
-.PrincipioCuatro{
-    background-color: #416B75;
-    height: 90px;
-    padding-top: 40px;
-    border-radius: 15px;
-    margin-top: -5px;
-    box-shadow: 4px 6px 15px rgba(0,0,0,0.30);
-    border-bottom: black;
-}
-.Principio4{
-    background-color: #416B75;
-    border-radius: 15px;
-    margin-top: -32px;
-    margin-left: 111px;
-}
-
 
 .Principio1,.Principio3>p{
     margin-left: 111px;
@@ -529,6 +525,7 @@ footer{
     height: 500px;
     margin-left: 100px;
     margin-top: 30px;
+    border-radius: 15px;
 }
 .ContenidoSAGRILAFT>p{
     padding:50px;
@@ -556,7 +553,7 @@ footer{
     margin-top: 120px;
     /*border:5px solid yellow;*/
 }
-.imagenUbicacion{
+.imagenUbicacion2{
     width: 400x;
     height: 480px;
     margin-left: 40px;
@@ -577,7 +574,7 @@ footer{
 }
 .Certificados{
     margin-top: 15px;
-    width: 130px;
+    width: 1300px;
     height: 920px;
     /*border: 5px solid red;*/
     margin-left: -8px;
@@ -692,7 +689,7 @@ footer{
     text-align: center;
 }
 .Email>h3{
-    font-size: 35px ;
+    font-size: 30px ;
 }
 .Email>img{
     width: 160px;
